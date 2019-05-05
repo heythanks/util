@@ -7,5 +7,6 @@ function unique(arr){
         sum[cur] ? sum[cur]++ : (sum[cur] = 1);
 		return sum
 	},{})
-	return Object.keys(obj)
+	return Object.keys(obj);
+	
 }
